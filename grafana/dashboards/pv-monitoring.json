@@ -37,7 +37,7 @@
       },
       "id": 16,
       "panels": [],
-      "title": "Aktuelle Werte und  Tageswerte",
+      "title": "Current Values and Daily Values",
       "type": "row"
     },
     {
@@ -166,7 +166,7 @@
           ]
         }
       ],
-      "title": "PV Leistung",
+      "title": "PV Power",
       "type": "gauge"
     },
     {
@@ -298,7 +298,7 @@
           ]
         }
       ],
-      "title": "Netz Leistung",
+      "title": "Grid Power",
       "type": "gauge"
     },
     {
@@ -419,7 +419,7 @@
           ]
         }
       ],
-      "title": "Hausverbrauch",
+      "title": "House Consumption",
       "type": "gauge"
     },
     {
@@ -551,7 +551,7 @@
           ]
         }
       ],
-      "title": "Speicher Lade-/Entladeleistung",
+      "title": "Battery Charge/Discharge Power",
       "type": "gauge"
     },
     {
@@ -683,7 +683,7 @@
           ]
         }
       ],
-      "title": "Speicher SoC ",
+      "title": "Battery SoC ",
       "type": "gauge"
     },
     {
@@ -777,7 +777,7 @@
           ]
         }
       ],
-      "title": "PV Ertrag",
+      "title": "PV Yield",
       "type": "stat"
     },
     {
@@ -871,7 +871,7 @@
           ]
         }
       ],
-      "title": "Netzeinspeisung",
+      "title": "Grid Feed-in",
       "type": "stat"
     },
     {
@@ -887,7 +887,7 @@
                 "from": 20,
                 "result": {
                   "index": 0,
-                  "text": "Einspeisung"
+                  "text": "Feed-in"
                 },
                 "to": 9999999999
               },
@@ -898,7 +898,7 @@
                 "from": -9999999999,
                 "result": {
                   "index": 1,
-                  "text": "Bezug"
+                  "text": "Purchase"
                 },
                 "to": -20
               },
@@ -909,7 +909,7 @@
                 "from": -20,
                 "result": {
                   "index": 2,
-                  "text": "Speicherregelung"
+                  "text": "Battery Control"
                 },
                 "to": 20
               },
