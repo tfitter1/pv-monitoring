@@ -1100,7 +1100,7 @@
           ]
         }
       ],
-      "title": "Direktverbrauch",
+      "title": "Direct Consumption",
       "type": "stat"
     },
     {
@@ -1194,7 +1194,7 @@
           ]
         }
       ],
-      "title": "Speicher Laden",
+      "title": "Battery Charging",
       "type": "stat"
     },
     {
@@ -1367,7 +1367,7 @@
           ]
         }
       ],
-      "title": "Speicher Entladen",
+      "title": "Battery Discharging",
       "type": "stat"
     },
     {
@@ -1461,7 +1461,7 @@
           ]
         }
       ],
-      "title": "Netzbezug",
+      "title": "Grid Purchase",
       "type": "stat"
     },
     {
@@ -1476,7 +1476,7 @@
               "options": {
                 "from": -5,
                 "result": {
-                  "text": "Netzregelung"
+                  "text": "Grid Control"
                 },
                 "to": 5
               },
@@ -1486,7 +1486,7 @@
               "options": {
                 "from": -9999999999,
                 "result": {
-                  "text": "Entladen"
+                  "text": "Discharging"
                 },
                 "to": -5
               },
@@ -1496,7 +1496,7 @@
               "options": {
                 "from": 5,
                 "result": {
-                  "text": "Laden"
+                  "text": "Charging"
                 },
                 "to": 9999999999
               },
@@ -1686,7 +1686,7 @@
           ]
         }
       ],
-      "title": "Hausverbrauch",
+      "title": "House Consumption",
       "type": "stat"
     },
     {
@@ -1802,7 +1802,7 @@
           ]
         }
       ],
-      "title": "Autarkiegrad",
+      "title": "Self-Sufficiency Rate",
       "type": "stat"
     },
     {
@@ -1919,7 +1919,7 @@
           ]
         }
       ],
-      "title": "Eigenverbrauchsgrad",
+      "title": "Self-Consumption Rate",
       "type": "stat"
     },
     {
@@ -2178,7 +2178,7 @@
               "refId": "A"
             }
           ],
-          "title": "Spannung",
+          "title": "Voltage",
           "type": "stat"
         },
         {
@@ -2240,7 +2240,7 @@
               "refId": "A"
             }
           ],
-          "title": "Strom",
+          "title": "Current",
           "type": "stat"
         },
         {
@@ -2303,7 +2303,7 @@
               "resultFormat": "time_series"
             }
           ],
-          "title": "Berechnete Leistung",
+          "title": "Calculated Power",
           "type": "stat"
         },
         {
@@ -2465,7 +2465,7 @@
               ]
             }
           ],
-          "title": "Speicher laden",
+          "title": "Battery charging",
           "type": "stat"
         },
         {
@@ -2564,7 +2564,7 @@
               ]
             }
           ],
-          "title": "Speicher entladen",
+          "title": "Battery discharging",
           "type": "stat"
         },
         {
@@ -2897,7 +2897,7 @@
               ]
             }
           ],
-          "title": "PV Ertrag",
+          "title": "PV Yield",
           "type": "stat"
         },
         {
@@ -2996,7 +2996,7 @@
               ]
             }
           ],
-          "title": "Netzeinspeisung",
+          "title": "Grid Feed-in",
           "type": "stat"
         },
         {
@@ -3096,7 +3096,7 @@
               ]
             }
           ],
-          "title": "Direktverbrauch",
+          "title": "Direct Consumption",
           "type": "stat"
         },
         {
@@ -3195,7 +3195,7 @@
               ]
             }
           ],
-          "title": "Netzbezug",
+          "title": "Grid Purchase",
           "type": "stat"
         },
         {
@@ -3294,7 +3294,7 @@
               ]
             }
           ],
-          "title": "Hausverbrauch",
+          "title": "House Consumption",
           "type": "stat"
         },
         {
@@ -3415,7 +3415,7 @@
               ]
             }
           ],
-          "title": "Autarkiegrad",
+          "title": "Self-Sufficiency Rate",
           "type": "stat"
         },
         {
@@ -3530,7 +3530,7 @@
               ]
             }
           ],
-          "title": "Eigenverbrauchsgrad",
+          "title": "Self-Consumption Rate",
           "type": "stat"
         }
       ],
@@ -3616,7 +3616,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Speicher-SoC"
+              "options": "Battery-SoC"
             },
             "properties": [
               {
@@ -3682,7 +3682,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "PV-Leistung"
+              "options": "PV-Power"
             },
             "properties": [
               {
@@ -3697,7 +3697,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Netz-Leistung"
+              "options": "Grid-Power"
             },
             "properties": [
               {
@@ -3712,7 +3712,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Hausverbrauch"
+              "options": "House Consumption"
             },
             "properties": [
               {
@@ -3742,7 +3742,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Speicher-Laden"
+              "options": "Battery-Charging"
             },
             "properties": [
               {
@@ -3772,7 +3772,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Speicher-Entladen"
+              "options": "Battery-Discharging"
             },
             "properties": [
               {
@@ -3787,7 +3787,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Speicher-SoC-Diagnose"
+              "options": "Battery-SoC-Diagnostics"
             },
             "properties": [
               {
@@ -3840,7 +3840,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "PV-Leistung",
+          "alias": "PV-Power",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -3884,7 +3884,7 @@
           "tags": []
         },
         {
-          "alias": "Netz-Leistung",
+          "alias": "Grid-Power",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -3927,7 +3927,7 @@
           ]
         },
         {
-          "alias": "Hausverbrauch",
+          "alias": "House Consumption",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4019,7 +4019,7 @@
           ]
         },
         {
-          "alias": "Speicher-Laden",
+          "alias": "Battery-Charging",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4062,7 +4062,7 @@
           "tags": []
         },
         {
-          "alias": "Speicher-Entladen",
+          "alias": "Battery-Discharging",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4106,7 +4106,7 @@
           "tags": []
         },
         {
-          "alias": "Speicher-Leistung",
+          "alias": "Battery-Power",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4193,7 +4193,7 @@
           ]
         },
         {
-          "alias": "Speicher-SoC",
+          "alias": "Battery-SoC",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4246,7 +4246,7 @@
           ]
         },
         {
-          "alias": "Speicher-SoC-Diagnose",
+          "alias": "Battery-SoC-Diagnostics",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4290,7 +4290,7 @@
           "tags": []
         }
       ],
-      "title": "PV Leistung, PV-Prognose, Sonnenstand, Netz Leistung, Speicherleistung, Speicher SoC und Hausverbrauch",
+      "title": "PV Power, PV Forecast, Sun Position, Grid Power, Battery Power, Battery SoC and House Consumption",
       "transformations": [
         {
           "id": "organize",
@@ -4317,7 +4317,7 @@
       },
       "id": 167,
       "panels": [],
-      "title": "Detailgraphen Aufteilung Hausverbrauch und PV-Erzeugung",
+      "title": "Detailed Graphs - House Consumption and PV Generation Distribution",
       "type": "row"
     },
     {
@@ -4383,7 +4383,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Direktverbrauch"
+              "options": "Direct Consumption"
             },
             "properties": [
               {
@@ -4398,7 +4398,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Speicher entladen"
+              "options": "Battery discharging"
             },
             "properties": [
               {
@@ -4413,7 +4413,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Netzbezug"
+              "options": "Grid Purchase"
             },
             "properties": [
               {
@@ -4428,7 +4428,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Hausverbrauch"
+              "options": "House Consumption"
             },
             "properties": [
               {
@@ -4480,7 +4480,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Netzbezug",
+          "alias": "Grid Purchase",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4522,7 +4522,7 @@
           "tags": []
         },
         {
-          "alias": "Speicher entladen",
+          "alias": "Battery discharging",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4564,7 +4564,7 @@
           "tags": []
         },
         {
-          "alias": "Hausverbrauch",
+          "alias": "House Consumption",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4607,16 +4607,16 @@
           "tags": []
         }
       ],
-      "title": "Aufteilung Hausverbrauch",
+      "title": "House Consumption Distribution",
       "transformations": [
         {
           "id": "calculateField",
           "options": {
             "binary": {
-              "left": "Hausverbrauch",
+              "left": "House Consumption",
               "operator": "-",
               "reducer": "sum",
-              "right": "Netzbezug"
+              "right": "Grid Purchase"
             },
             "mode": "binary",
             "reduce": {
@@ -4627,12 +4627,12 @@
         {
           "id": "calculateField",
           "options": {
-            "alias": "Direktverbrauch",
+            "alias": "Direct Consumption",
             "binary": {
-              "left": "Hausverbrauch - Netzbezug",
+              "left": "House Consumption - Grid Purchase",
               "operator": "-",
               "reducer": "sum",
-              "right": "Speicher entladen"
+              "right": "Battery discharging"
             },
             "mode": "binary",
             "reduce": {
@@ -4644,8 +4644,8 @@
           "id": "organize",
           "options": {
             "excludeByName": {
-              "Hausverbrauch": false,
-              "Hausverbrauch - Netzbezug": true
+              "House Consumption": false,
+              "House Consumption - Grid Purchase": true
             },
             "indexByName": {},
             "renameByName": {}
@@ -4717,7 +4717,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Direktverbrauch"
+              "options": "Direct Consumption"
             },
             "properties": [
               {
@@ -4732,7 +4732,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Speicher laden"
+              "options": "Battery charging"
             },
             "properties": [
               {
@@ -4747,7 +4747,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Netzeinspeisung"
+              "options": "Grid Feed-in"
             },
             "properties": [
               {
@@ -4762,7 +4762,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "PV-Ertrag"
+              "options": "PV-Yield"
             },
             "properties": [
               {
@@ -4814,7 +4814,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Netzeinspeisung",
+          "alias": "Grid Feed-in",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4857,7 +4857,7 @@
           "tags": []
         },
         {
-          "alias": "Speicher laden",
+          "alias": "Battery charging",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4899,7 +4899,7 @@
           "tags": []
         },
         {
-          "alias": "PV-Ertrag",
+          "alias": "PV-Yield",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -4942,16 +4942,16 @@
           "tags": []
         }
       ],
-      "title": "Aufteilung PV-Ertrag",
+      "title": "PV Yield Distribution",
       "transformations": [
         {
           "id": "calculateField",
           "options": {
             "binary": {
-              "left": "PV-Ertrag",
+              "left": "PV-Yield",
               "operator": "-",
               "reducer": "sum",
-              "right": "Speicher laden"
+              "right": "Battery charging"
             },
             "mode": "binary",
             "reduce": {
@@ -4962,12 +4962,12 @@
         {
           "id": "calculateField",
           "options": {
-            "alias": "Direktverbrauch",
+            "alias": "Direct Consumption",
             "binary": {
-              "left": "PV-Ertrag - Speicher laden",
+              "left": "PV-Yield - Battery charging",
               "operator": "-",
               "reducer": "sum",
-              "right": "Netzeinspeisung"
+              "right": "Grid Feed-in"
             },
             "mode": "binary",
             "reduce": {
@@ -4979,9 +4979,9 @@
           "id": "organize",
           "options": {
             "excludeByName": {
-              "Hausverbrauch": false,
-              "Hausverbrauch - Netzbezug": true,
-              "PV-Ertrag - Speicher laden": true
+              "House Consumption": false,
+              "House Consumption - Grid Purchase": true,
+              "PV-Yield - Battery charging": true
             },
             "indexByName": {},
             "renameByName": {}
@@ -5067,7 +5067,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "MPPT 1 Strom"
+              "options": "MPPT 1 Current"
             },
             "properties": [
               {
@@ -5079,7 +5079,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "MPPT 2 Strom"
+              "options": "MPPT 2 Current"
             },
             "properties": [
               {
@@ -5118,7 +5118,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "MPPT 1 Spannung",
+          "alias": "MPPT 1 Voltage",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -5161,7 +5161,7 @@
           ]
         },
         {
-          "alias": "MPPT 2 Spannung",
+          "alias": "MPPT 2 Voltage",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -5204,7 +5204,7 @@
           ]
         },
         {
-          "alias": "MPPT 1 Strom",
+          "alias": "MPPT 1 Current",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -5215,7 +5215,7 @@
           "refId": "C"
         },
         {
-          "alias": "MPPT 2 Strom",
+          "alias": "MPPT 2 Current",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -5226,7 +5226,7 @@
           "refId": "D"
         }
       ],
-      "title": "MPPT-Spannung",
+      "title": "MPPT Voltage",
       "type": "timeseries"
     },
     {
@@ -5293,7 +5293,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Blindleistung"
+              "options": "Reactive Power"
             },
             "properties": [
               {
@@ -5485,7 +5485,7 @@
           "resultFormat": "time_series"
         }
       ],
-      "title": "MPPT-Leistung",
+      "title": "MPPT Power",
       "type": "timeseries"
     },
     {
@@ -5551,7 +5551,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "PV-Ertrag"
+              "options": "PV-Yield"
             },
             "properties": [
               {
@@ -5611,7 +5611,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "PV-Ertrag",
+          "alias": "PV-Yield",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -5696,7 +5696,7 @@
           "tags": []
         }
       ],
-      "title": "PV-Ertrag und Prognose (Gruppierung über Variable)",
+      "title": "PV Yield and Forecast (Grouped by Variable)",
       "type": "timeseries"
     },
     {
@@ -5765,7 +5765,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Speicher Laden"
+              "options": "Battery Charging"
             },
             "properties": [
               {
@@ -5780,7 +5780,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Netzeinspeisung"
+              "options": "Grid Feed-in"
             },
             "properties": [
               {
@@ -5795,7 +5795,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Direktverbrauch"
+              "options": "Direct Consumption"
             },
             "properties": [
               {
@@ -5834,7 +5834,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "PV-Leistung",
+          "alias": "PV-Power",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -5877,7 +5877,7 @@
           ]
         },
         {
-          "alias": "Netzeinspeisung",
+          "alias": "Grid Feed-in",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -5919,7 +5919,7 @@
           ]
         },
         {
-          "alias": "Speicher Laden",
+          "alias": "Battery Charging",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -5962,16 +5962,16 @@
           ]
         }
       ],
-      "title": "Aufteilung PV-Ertrag (Gruppierung über Variable)",
+      "title": "PV Yield Distribution (Grouped by Variable)",
       "transformations": [
         {
           "id": "calculateField",
           "options": {
             "binary": {
-              "left": "PV-Leistung",
+              "left": "PV-Power",
               "operator": "-",
               "reducer": "sum",
-              "right": "Netzeinspeisung"
+              "right": "Grid Feed-in"
             },
             "mode": "binary",
             "reduce": {
@@ -5982,12 +5982,12 @@
         {
           "id": "calculateField",
           "options": {
-            "alias": "Direktverbrauch",
+            "alias": "Direct Consumption",
             "binary": {
-              "left": "PV-Leistung - Netzeinspeisung",
+              "left": "PV-Power - Grid Feed-in",
               "operator": "-",
               "reducer": "sum",
-              "right": "Speicher Laden"
+              "right": "Battery Charging"
             },
             "mode": "binary",
             "reduce": {
@@ -5999,8 +5999,8 @@
           "id": "organize",
           "options": {
             "excludeByName": {
-              "PV-Leistung": true,
-              "PV-Leistung - Netzeinspeisung": true
+              "PV-Power": true,
+              "PV-Power - Grid Feed-in": true
             },
             "indexByName": {},
             "renameByName": {}
@@ -6019,7 +6019,7 @@
       },
       "id": 124,
       "panels": [],
-      "title": "Hausverbrauch",
+      "title": "House Consumption",
       "type": "row"
     },
     {
@@ -6084,7 +6084,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Hausverbrauch"
+              "options": "House Consumption"
             },
             "properties": [
               {
@@ -6125,7 +6125,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Hausverbrauch",
+          "alias": "House Consumption",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -6167,7 +6167,7 @@
           "tags": []
         }
       ],
-      "title": "Hausverbrauch (Gruppierung über Variable)",
+      "title": "House Consumption (Grouped by Variable)",
       "type": "timeseries"
     },
     {
@@ -6235,7 +6235,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Speicher Entladen"
+              "options": "Battery Discharging"
             },
             "properties": [
               {
@@ -6250,7 +6250,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Direktverbrauch"
+              "options": "Direct Consumption"
             },
             "properties": [
               {
@@ -6265,7 +6265,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Netzbezug"
+              "options": "Grid Purchase"
             },
             "properties": [
               {
@@ -6304,7 +6304,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Netzbezug",
+          "alias": "Grid Purchase",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -6346,7 +6346,7 @@
           ]
         },
         {
-          "alias": "Speicher Entladen",
+          "alias": "Battery Discharging",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -6389,7 +6389,7 @@
           ]
         },
         {
-          "alias": "Hausverbrauch",
+          "alias": "House Consumption",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -6432,16 +6432,16 @@
           ]
         }
       ],
-      "title": "Aufteilung Hausverbrauch (Gruppierung über Variable)",
+      "title": "House Consumption Distribution (Grouped by Variable)",
       "transformations": [
         {
           "id": "calculateField",
           "options": {
             "binary": {
-              "left": "Hausverbrauch",
+              "left": "House Consumption",
               "operator": "-",
               "reducer": "sum",
-              "right": "Netzbezug"
+              "right": "Grid Purchase"
             },
             "mode": "binary",
             "reduce": {
@@ -6452,12 +6452,12 @@
         {
           "id": "calculateField",
           "options": {
-            "alias": "Direktverbrauch",
+            "alias": "Direct Consumption",
             "binary": {
-              "left": "Hausverbrauch - Netzbezug",
+              "left": "House Consumption - Grid Purchase",
               "operator": "-",
               "reducer": "sum",
-              "right": "Speicher Entladen"
+              "right": "Battery Discharging"
             },
             "mode": "binary",
             "reduce": {
@@ -6469,8 +6469,8 @@
           "id": "organize",
           "options": {
             "excludeByName": {
-              "Hausverbrauch": true,
-              "Hausverbrauch - Netzbezug": true
+              "House Consumption": true,
+              "House Consumption - Grid Purchase": true
             },
             "indexByName": {},
             "renameByName": {}
@@ -6582,7 +6582,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Speicher",
+          "alias": "Battery",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -6711,7 +6711,7 @@
           ]
         },
         {
-          "alias": "Speicher",
+          "alias": "Battery",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -6767,7 +6767,7 @@
       },
       "id": 126,
       "panels": [],
-      "title": "Speicher",
+      "title": "Battery",
       "type": "row"
     },
     {
@@ -6784,7 +6784,7 @@
             "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
-            "axisLabel": "Laden/Entladen",
+            "axisLabel": "Charging/Discharging",
             "axisPlacement": "auto",
             "barAlignment": 0,
             "barWidthFactor": 0.6,
@@ -6833,7 +6833,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Speicher Entladen"
+              "options": "Battery Discharging"
             },
             "properties": [
               {
@@ -6860,7 +6860,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Speicher Laden"
+              "options": "Battery Charging"
             },
             "properties": [
               {
@@ -7104,7 +7104,7 @@
           "tags": []
         },
         {
-          "alias": "Speicher Laden",
+          "alias": "Battery Charging",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -7152,7 +7152,7 @@
           ]
         },
         {
-          "alias": "Speicher Entladen",
+          "alias": "Battery Discharging",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -7195,7 +7195,7 @@
           "tags": []
         }
       ],
-      "title": "Speicher Laden/Entladen und durchschnittlicher Max-/Min-SoC (Gruppierung über Variable)",
+      "title": "Battery Charge/Discharge and Average Max/Min SoC (Grouped by Variable)",
       "type": "timeseries"
     },
     {
@@ -7312,7 +7312,7 @@
       "id": 4,
       "panels": [],
       "repeat": "topicsEvuCurrent",
-      "title": "Netz",
+      "title": "Grid",
       "type": "row"
     },
     {
@@ -7380,7 +7380,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Netzeinspeisung"
+              "options": "Grid Feed-in"
             },
             "properties": [
               {
@@ -7395,7 +7395,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Netzbezug"
+              "options": "Grid Purchase"
             },
             "properties": [
               {
@@ -7440,7 +7440,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Netzeinspeisung",
+          "alias": "Grid Feed-in",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -7483,7 +7483,7 @@
           "tags": []
         },
         {
-          "alias": "Netzbezug",
+          "alias": "Grid Purchase",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -7524,7 +7524,7 @@
           ]
         }
       ],
-      "title": "Bezug/Einspeisung (Gruppierung über Variable)",
+      "title": "Purchase/Feed-in (Grouped by Variable)",
       "type": "timeseries"
     },
     {
@@ -7591,7 +7591,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Blindleistung"
+              "options": "Reactive Power"
             },
             "properties": [
               {
@@ -7759,7 +7759,7 @@
           ]
         },
         {
-          "alias": "Blindleistung",
+          "alias": "Reactive Power",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -7771,7 +7771,7 @@
           "resultFormat": "time_series"
         }
       ],
-      "title": "Netz-Spannung",
+      "title": "Grid Voltage",
       "type": "timeseries"
     },
     {
@@ -7838,7 +7838,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Netzfrequenz"
+              "options": "Grid Frequency"
             },
             "properties": [
               {
@@ -8014,7 +8014,7 @@
           ]
         },
         {
-          "alias": "Netzfrequenz",
+          "alias": "Grid Frequency",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -8025,7 +8025,7 @@
           "refId": "D"
         }
       ],
-      "title": "Netz-Strom",
+      "title": "Grid Current",
       "type": "timeseries"
     },
     {
@@ -8092,7 +8092,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Blindleistung"
+              "options": "Reactive Power"
             },
             "properties": [
               {
@@ -8260,7 +8260,7 @@
           ]
         }
       ],
-      "title": "Netz-Leistung",
+      "title": "Grid Power",
       "type": "timeseries"
     },
     {
@@ -8273,7 +8273,7 @@
       },
       "id": 130,
       "panels": [],
-      "title": "Eigenverbrauchs- und Autarkiegrad",
+      "title": "Self-Consumption and Self-Sufficiency Rate",
       "type": "row"
     },
     {
@@ -8362,7 +8362,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Hausverbrauch",
+          "alias": "House Consumption",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -8404,7 +8404,7 @@
           "tags": []
         },
         {
-          "alias": "Netzbezug",
+          "alias": "Grid Purchase",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -8488,7 +8488,7 @@
           "tags": []
         },
         {
-          "alias": "Netzeinspeisung",
+          "alias": "Grid Feed-in",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -8530,16 +8530,16 @@
           "tags": []
         }
       ],
-      "title": "Eigenverbrauch und Autarkie (Gruppierung über Variable)",
+      "title": "Self-Consumption and Self-Sufficiency (Grouped by Variable)",
       "transformations": [
         {
           "id": "calculateField",
           "options": {
             "binary": {
-              "left": "Hausverbrauch",
+              "left": "House Consumption",
               "operator": "-",
               "reducer": "sum",
-              "right": "Netzbezug"
+              "right": "Grid Purchase"
             },
             "mode": "binary",
             "reduce": {
@@ -8550,12 +8550,12 @@
         {
           "id": "calculateField",
           "options": {
-            "alias": "Autarkiegrado",
+            "alias": "Self-Sufficiency Rate",
             "binary": {
-              "left": "Hausverbrauch - Netzbezug",
+              "left": "House Consumption - Grid Purchase",
               "operator": "/",
               "reducer": "sum",
-              "right": "Hausverbrauch"
+              "right": "House Consumption"
             },
             "mode": "binary",
             "reduce": {
@@ -8571,7 +8571,7 @@
               "left": "PV",
               "operator": "-",
               "reducer": "sum",
-              "right": "Netzeinspeisung"
+              "right": "Grid Feed-in"
             },
             "mode": "binary",
             "reduce": {
@@ -8582,9 +8582,9 @@
         {
           "id": "calculateField",
           "options": {
-            "alias": "Eigenverbrauchsgrado",
+            "alias": "Self-Consumption Rate",
             "binary": {
-              "left": "PV - Netzeinspeisung",
+              "left": "PV - Grid Feed-in",
               "operator": "/",
               "reducer": "sum",
               "right": "PV"
@@ -8598,9 +8598,9 @@
         {
           "id": "calculateField",
           "options": {
-            "alias": "Autarkiegrad",
+            "alias": "Self-Sufficiency Rate",
             "binary": {
-              "left": "Autarkiegrado",
+              "left": "Self-Sufficiency Rate",
               "operator": "*",
               "reducer": "sum",
               "right": "100"
@@ -8614,9 +8614,9 @@
         {
           "id": "calculateField",
           "options": {
-            "alias": "Eigenverbrauchsgrad",
+            "alias": "Self-Consumption Rate",
             "binary": {
-              "left": "Eigenverbrauchsgrado",
+              "left": "Self-Consumption Rate",
               "operator": "*",
               "reducer": "sum",
               "right": "100"
@@ -8632,14 +8632,14 @@
           "id": "organize",
           "options": {
             "excludeByName": {
-              "Autarkiegrado": true,
-              "Eigenverbrauchsgrado": true,
-              "Hausverbrauch": true,
-              "Hausverbrauch - Netzbezug": true,
-              "Netzbezug": true,
-              "Netzeinspeisung": true,
+              "Self-Sufficiency Rate": true,
+              "Self-Consumption Rate": true,
+              "House Consumption": true,
+              "House Consumption - Grid Purchase": true,
+              "Grid Purchase": true,
+              "Grid Feed-in": true,
               "PV": true,
-              "PV - Netzeinspeisung": true
+              "PV - Grid Feed-in": true
             },
             "indexByName": {},
             "renameByName": {}
@@ -8658,7 +8658,7 @@
       },
       "id": 128,
       "panels": [],
-      "title": "Ersparnis- und Einnahmenrechner",
+      "title": "Savings and Revenue Calculator",
       "type": "row"
     },
     {
@@ -8721,7 +8721,7 @@
           "resultFormat": "time_series"
         }
       ],
-      "title": "Ersparnis und Einnahmen",
+      "title": "Savings and Revenue",
       "type": "stat"
     },
     {
@@ -8773,7 +8773,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Ersparnis",
+          "alias": "Savings",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -8785,7 +8785,7 @@
           "resultFormat": "time_series"
         }
       ],
-      "title": "Ersparnis",
+      "title": "Savings",
       "type": "stat"
     },
     {
@@ -8837,7 +8837,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Einspeisung",
+          "alias": "Feed-in",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -8901,7 +8901,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Netzbezug",
+          "alias": "Grid Purchase",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -8980,7 +8980,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Hausverbrauch"
+              "options": "House Consumption"
             },
             "properties": [
               {
@@ -8996,7 +8996,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Netzbezug"
+              "options": "Grid Purchase"
             },
             "properties": [
               {
@@ -9012,7 +9012,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Ersparnis"
+              "options": "Savings"
             },
             "properties": [
               {
@@ -9066,7 +9066,7 @@
       "pluginVersion": "11.5.2",
       "targets": [
         {
-          "alias": "Hausverbrauch",
+          "alias": "House Consumption",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -9108,7 +9108,7 @@
           "tags": []
         },
         {
-          "alias": "Netzbezug",
+          "alias": "Grid Purchase",
           "datasource": {
             "type": "influxdb",
             "uid": "P951FEA4DE68E13C5"
@@ -9192,17 +9192,17 @@
           "tags": []
         }
       ],
-      "title": "Ersparnis und Einnahmen (Gruppierung über Variable)",
+      "title": "Savings and Revenue (Grouped by Variable)",
       "transformations": [
         {
           "id": "calculateField",
           "options": {
-            "alias": "Ersparnis",
+            "alias": "Savings",
             "binary": {
-              "left": "Hausverbrauch",
+              "left": "House Consumption",
               "operator": "-",
               "reducer": "sum",
-              "right": "Netzbezug"
+              "right": "Grid Purchase"
             },
             "mode": "binary",
             "reduce": {
@@ -9214,7 +9214,7 @@
           "id": "calculateField",
           "options": {
             "binary": {
-              "left": "Ersparnis",
+              "left": "Savings",
               "operator": "*",
               "reducer": "sum",
               "right": ""
@@ -9229,8 +9229,8 @@
           "id": "organize",
           "options": {
             "excludeByName": {
-              "Hausverbrauch": true,
-              "Netzbezug": true
+              "House Consumption": true,
+              "Grid Purchase": true
             },
             "indexByName": {},
             "renameByName": {}
@@ -9452,7 +9452,7 @@
           "text": "0.2941",
           "value": "0.2941"
         },
-        "description": "Aktueller Strompreis",
+        "description": "Current Electricity Price",
         "hide": 2,
         "name": "strompreis",
         "query": "0.2941",
